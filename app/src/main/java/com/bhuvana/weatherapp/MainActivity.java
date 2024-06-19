@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         //Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                         //startActivity(intent);
-                        url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=884d3ca5a774b83e2dbad185fc8ceba0";
+                        url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=yourapikey";
                     }
                     //class to get weather details
                     getweather task = new getweather();
